@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iqclasses.ac.in </title>
+
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="jquery.flipster.min.css">
+
+</head>
+
+<body>
+    
+
+
+    <nav class="navbar" id="home">
+        <span class="navbar-menu" id="js-navbar">
+            <i class="fas fa-hamburger"></i>
+        </span>
+        <div id="logo"><i class="fas fa-info"></i><i class="fab fa-quora"></i><span id="logo-s">classes</span></div>
+        <div class="nav-div">
+            <ul class="main-nav" id="menu">
+                <li><a href="#home" class="nav-links"><i class="fas fa-home"> </i> Home</a></li>
+                <li><a href="#speciality" class="nav-links"><i class="fas fa-address-card"></i> About Us</a> </li>
+                <li><a href="#gallery" class="nav-links"><i class="fas fa-images"></i> Gallery</a> </li>
+                <li><a href="#contact" class="nav-links"><i class="fas fa-phone"></i> Contact Us</a> </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="carouse" onmouseover="stopShow1()" onmouseout="autochange1()">
+        <div class="carouse_item  active">
+            <img class="img-1" src="images/17-1.png" alt="">
+            <img src="images/15s.png" class="img-1sm" alt="">
+        </div>
+        <div class="carouse_item  hidden">
+            <img class="img-2" src="images/15.png" alt="">
+            <img src="images/17s.png" alt="" class="img-2sm">
+        </div>
+        <div class="carouse_item">
+            <img class="img-3" src="images/18.png" alt="">
+            <img src="images/16s.png" alt="" class="img-3sm">
+        </div>
+        <div class="carouse_actions">
+            <button onclick="prev()" id="carouse_button_prev" aria-label="Previous Slide">
+                < </button>
+                    <button onclick="next()" id="carouse_button_next" aria-label="Next Slide">
+                        > </button>
+        </div>
+    </div>
+
+
+
+    <section class="speciality" id="speciality">
+
+        <h1 class="heading"> why to <span>choose us</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+
+                <div class="content">
+                    <img src="images/55.png" alt="">
+                    <h3>Highly Qualified & Experienced Faculty</h3>
+                    <ul>
+                        <li style="font-size:medium; ">Highly skilled and experrienced teachers work with us</li>
+                        <li style="font-size:medium;">They are specialised in their respective fields</li>
+                        <li style="font-size:medium;">They very well know how to shape your child's future</li>
+                    </ul>
+
+                </div>
+            </div>
+            <div class="box">
+
+                <div class="content">
+                    <img src="images/56.png" alt="">
+                    <h3>Online Test Portal for Students</h3>
+                    <ul class="un">
+                        <li style="font-size:medium;">Frequent Test are taken on panel</li>
+                        <li style="font-size:medium;">Assignments are given on panel</li>
+                        <li style="font-size:medium;">Different levels of tests are given</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="box">
+
+                <div class="content">
+                    <img src="images/59.png" alt="">
+                    <h3> Online / Offline Classes</h3>
+                    <ul class="un">
+                        <li style="font-size:medium;">Best Interface for students to understand easily</li>
+                        <li style="font-size:medium;">Small Online batches</li>
+                        <li style="font-size:medium;">Personel attention to students</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="box">
+
+                <div class="content">
+                    <img src="images/60.png" alt="">
+                    <h3>Free Career Counselling Sessions</h3>
+                    <ul class="un">
+                        <li style="font-size:medium;">Trained Career Counsellers helps to guide student's career path
+                        </li>
+                        <li style="font-size:medium;">Personality Development Sessions</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="box">
+
+                <div class="content">
+                    <img src="images/58.png" alt="">
+                    <h3>Well Established Computer Labs</h3>
+                    <ul class="un">
+                        <li style="font-size:medium;">Computer classes on JAVA/PYTHON were conducted</li>
+                        <li style="font-size:medium;">Practical Classes are also conducted </li>
+                        <li style="font-size:medium;">Development and Designing Classes are conducted</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="box">
+
+                <div class="content">
+                    <img src="images/55.png" alt="">
+                    <h3>Parent-Teacher Meeting</h3>
+                    <ul class="un">
+                        <li style="font-size:medium;">Regular Reports are given to parents</li>
+                        <li style="font-size:medium;">Monthly Meetings are conducted </li>
+                        <li style="font-size:medium;">Monthly score cards are generated</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+
+
+    <div class="step-container">
+
+        <h1 class="heading">our focus <span>area</span></h1>
+
+        <section class="steps">
+
+            <div class="box">
+                <img src="images/9image-1.jpg" height="225px" width="225px" alt="">
+                <h3>Class 9th</h3>
+            </div>
+            <div class="box">
+                <img src="images/10img-1.png" height="225px" width="225px" alt="">
+                <h3>Class 10th</h3>
+            </div>
+            <div class="box">
+                <img src="images/11img-1.png" height="225px" width="225px" alt="">
+                <h3>Class 11th</h3>
+            </div>
+            <div class="box">
+                <img src="images/12img.jpg" height="225px" width="225px" alt="">
+                <h3>Class 12th</h3>
+            </div>
+
+        </section>
+
+    </div>
+
+
+
+    <!-- gallery section starts  -->
+   
+    <section class="gallery" id="gallery">
+
+    <h1 class="heading"> <span style="color:beige">our gallery </span> </h1>
+    <div class="banner">
+        <div class="carousel">
+            <ul>
+                <li>
+                    <img src="images/1010.jpeg" alt="">
+                </li>
+                <li>
+                    <img src="images/1011.jpeg" alt="">
+                </li>
+                <li>
+                    <img src="images/1012.jpeg" alt="">
+                </li>
+                <li>
+                    <img src="images/1013.jpeg" alt="">
+                </li>
+                <li>
+                    <img src="images/1014.jpeg" alt="">
+                </li>
+                <li>
+                    <img src="images/1015.jpeg" alt="">
+                </li>
+                <li>
+                    <img src="images/1020.jpeg" alt="">
+                </li>
+                <li>
+                    <img src="images/1016.jpeg" alt="">
+                </li>
+                <li>
+                    <img src="images/t3.jpg" alt="">
+                </li>
+                <li>
+                    <img src="images/t2.jpg" alt="">
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    
+</section>
+
+    <!-- gallery section ends -->
+
+    <!-- review section starts  -->
+
+    <section class="review" id="review">
+
+        <h1 class="heading"> what our <span>students speak</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="images/student2.jpeg" alt="">
+                <h3>ANSHIKA</h3>
+
+                <p>"My experience was great in this institute. Teachers are very friendly , they help in solving our
+                    doubts and clearing ours concepts."</p>
+            </div>
+            <div class="box">
+                <img src="images/student1.jpeg" alt="">
+                <h3>SHREY</h3>
+
+                <p>"My experience was great in this institute. Teachers are very friendly , they help in solving our
+                    doubts and clearing ours concepts."</p>
+            </div>
+            <div class="box">
+                <img src="images/student2.jpeg" alt="">
+                <h3>HARSHIT</h3>
+
+                <p>"My experience was great in this institute. Teachers are very friendly , they help in solving our
+                    doubts and clearing ours concepts."</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+
+    <section class="contact" id="contact">
+
+        <h1 class="heading"> <span>Contact</span> Us</h1>
+
+        <div class="row">
+
+
+
+            <form action="">
+
+                <div class="inputBox">
+                    <input type="text" placeholder="name">
+                    <input type="email" placeholder="email">
+                </div>
+
+                <div class="inputBox">
+                    <input type="phone" placeholder="number">
+                    <!-- <input type="text" placeholder="address"> -->
+                </div>
+
+                <textarea placeholder="address" name="" id="" cols="30" rows="10"></textarea>
+
+                <input type="submit" value="Submit" class="btn">
+
+            </form>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- footer section  -->
+
+    <section class="footer">
+
+        <div class="share">
+            <a class="icon"><i class="fab fa-facebook"></i></a>
+            <a class="icon"><i class="fab fa-twitter"></i></a>
+            <a class="icon"><i class="fab fa-instagram"></i></a>
+            <a class="icon"><i class="fab fa-youtube"></i></a>
+
+
+        </div>
+
+        <h1 class="credit"> copyright<span> issued</span> | all rights reserved! </h1>
+
+    </section>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="jquery.flipster.min.js"></script>
+   
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
